@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Xccount</string>
+    <string name="back_drop">back drop</string>
+    <string name="pep">Pep</string>
+    <string name="shaw">Life isn\'t about finding yourself. It\'s about creating yourself.</string>
+    <string name="josep_guardiola">Josep Guardiola</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_current_school">Select Current School</string>
+    <string name="current_school">Current School</string>
+    <string name="year_group">Year Group</string>
+    <string name="programme">Programme</string>
+    <string name="year_completed">Year of Completion</string>
+    <string name="previous_school">Previous School</string>
+    <string name="let_s_find_what_you_love">Let\'s find what you love</string>
+    <string name="Choose">Choose at least five (5)</string>
+    <string name="technology">Technology</string>
+    <string name="date_of_birth">Date of Birth</string>
+
+    <string-array name="School_array">
+        <item> </item>
+        <item>Prempeh College</item>
+        <item>Presec Boys</item>
+        <item>Adisadel College</item>
+        <item>Mfantsipim School</item>
+        <item>Notre Dam SHS</item>
+    </string-array>
+
+
+    <string-array name="Year_Group">
+        <item> </item>
+        <item>First Year</item>
+        <item>second Year</item>
+        <item>Third Year</item>
+    </string-array>
+
+
+    <string-array name="Programme">
+        <item> </item>
+        <item>General Science</item>
+        <item>Visual Arts</item>
+        <item>General Arts</item>
+        <item>Home Economics</item>
+        <item>Agric Science</item>
+        <item> Business</item>
+    </string-array>
+
+
+    <string-array name="interests">
+        <item>Engineering </item>
+        <item>Technology</item>
+        <item>Math</item>
+        <item>Personal Development</item>
+        <item>Entrepreneurship</item>
+        <item>Food and Agriculture</item>
+        <item> Business</item>
+        <item>Graphic Design</item>
+        <item>Motion Graphics</item>
+        <item>Energy</item>
+        <item>Entrepreneurship</item>
+        <item>Music</item>
+        <item> Space Science</item>
+        <item>Robotics</item>
+        <item>Programming</item>
+        <item>Economics</item>
+        <item>Politics</item>
+        <item> Art</item>
+        <item>Philosophy</item>
+        <item>Science</item>
+        <item>Culture</item>
+        <item>DIY</item>
+        <item>History</item>
+        <item> Artificial Intelligence</item>
+
+
+
+    </string-array>
+
+
+
+
+</resources>

@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "713372191746",
+    "firebase_url": "https://xplay-genius.firebaseio.com",
+    "project_id": "xplay-genius",
+    "storage_bucket": "xplay-genius.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713372191746:android:7382c0eb61b3b6e0",
+        "android_client_info": {
+          "package_name": "genius.xccount"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713372191746-67ipuukhn7o1gnpbjn6ka8ojkl6nlg8j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "genius.xccount",
+            "certificate_hash": "1576b8638560df1fc09799a85007cebc99db1924"
+          }
+        },
+        {
+          "client_id": "713372191746-fobvq8khna17oposla1glohs1l1bvr8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOi2m5Q_6kWHn3c96wcNFlCm181BUdEpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713372191746-fobvq8khna17oposla1glohs1l1bvr8s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713372191746:android:b6e211202e1dedef",
+        "android_client_info": {
+          "package_name": "geniusinc.lunxjava"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713372191746-i1m069a9215474itp1n2s9kpn7s9l5rr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "geniusinc.lunxjava",
+            "certificate_hash": "8d649b7dc991794fc2b8b22bd49e84345930632b"
+          }
+        },
+        {
+          "client_id": "713372191746-fobvq8khna17oposla1glohs1l1bvr8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOi2m5Q_6kWHn3c96wcNFlCm181BUdEpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713372191746-fobvq8khna17oposla1glohs1l1bvr8s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713372191746:android:ca9d89c8fc7daeda",
+        "android_client_info": {
+          "package_name": "geniusinc.xplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713372191746-hhomp8cfgjui3uj69ktln1ec2bpjkcik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "geniusinc.xplay",
+            "certificate_hash": "8f2ccb6722cac046ea827de7efca143080e12d4e"
+          }
+        },
+        {
+          "client_id": "713372191746-fobvq8khna17oposla1glohs1l1bvr8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOi2m5Q_6kWHn3c96wcNFlCm181BUdEpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713372191746-fobvq8khna17oposla1glohs1l1bvr8s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

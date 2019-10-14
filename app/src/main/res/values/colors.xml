@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="pro">#754700</color>
+    <color name="black">#000000</color>
+    <color name="quote">#D9e9e9e9</color>
+    <color name="blue">#0000ff</color>
+    <color name="white">#ffffff</color>
+    <color name="darkTrans">#60000000</color>
+    <color name="yelt">#90F0B63D</color>
+    <color name="blblk">#90232E4C</color>
+    <color name="grr">#9071B1A8</color>
+    <color name="rred">#90DD1A51</color>
+</resources>

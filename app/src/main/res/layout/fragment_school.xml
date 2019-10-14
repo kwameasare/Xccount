@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".School">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/current_school"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="435dp"
+        />
+    <Spinner
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/sch_spin"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="120dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/year_group"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="470dp"
+        />
+
+
+    <Spinner
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="340dp"
+        android:id="@+id/year_spin"
+        android:layout_marginEnd="120dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/programme"
+        android:textColor="@color/black"
+        android:layout_alignParentEnd="true"
+        android:textSize="20sp"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="460dp"
+        />
+
+    <Spinner
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="420dp"
+        android:id="@+id/programme_spin"
+        android:layout_marginEnd="120dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/previous_school"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="425dp"
+        />
+    <Spinner
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/former_sch_spin"
+        android:layout_marginTop="630dp"
+        android:layout_marginEnd="120dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/year_completed"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="395dp"
+        />
+
+
+    <Spinner
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="710dp"
+        android:id="@+id/completion_year_spin"
+        android:layout_marginEnd="120dp"
+        />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="250dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        android:id="@+id/snext"
+        android:clickable="true"
+        android:focusable="true"
+        android:stateListAnimator="@animator/small_raise"
+        app:cardBackgroundColor="@color/blue"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            />
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

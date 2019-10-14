@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="true" >
+        <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+            android:duration="6000"
+            android:repeatCount="infinite"
+            android:repeatMode="restart">
+            <propertyValuesHolder android:propertyName="translationX" >
+
+                <keyframe android:fraction=".25"
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                    android:value="15" />
+                <keyframe android:fraction=".6"
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                    android:value="-10"/>
+                <keyframe android:fraction=".9"
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                    android:value="15" />
+            </propertyValuesHolder>
+
+
+            <propertyValuesHolder android:propertyName="translationY" >
+
+                <keyframe android:fraction=".25"
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                    android:value="-15"/>
+
+                <keyframe
+                    android:fraction=".58"
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                    android:value="10" />
+
+                <keyframe
+                    android:fraction=".9"
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                    android:value="-15" />
+            </propertyValuesHolder>
+
+
+        </objectAnimator>
+    </item>
+
+
+
+
+</selector>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="true" >
+        <objectAnimator
+            android:duration="1100"
+            android:repeatCount="infinite"
+            android:repeatMode="restart">
+            <propertyValuesHolder android:propertyName="alpha" >
+                <keyframe android:fraction="0" android:value="1.3" />
+                <keyframe android:fraction=".2"
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                    android:value="1.5" />
+                <keyframe android:fraction="1"
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                    android:value="1.3" />
+            </propertyValuesHolder>
+            <propertyValuesHolder android:propertyName="scaleY" >
+                <keyframe android:fraction="0" android:value="1.3"/>
+                <keyframe android:fraction=".2"
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                    android:value="1.5"/>
+                <keyframe android:interpolator="@android:anim/decelerate_interpolator"
+                    android:value="1.3" />
+            </propertyValuesHolder>
+
+            <propertyValuesHolder android:propertyName="translationZ" >
+                <keyframe android:fraction="0" android:value="2"/>
+                <keyframe android:fraction=".2"
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                    android:value="8"/>
+                <keyframe android:interpolator="@android:anim/decelerate_interpolator"
+                    android:value="2" />
+            </propertyValuesHolder>
+
+
+        </objectAnimator>
+    </item>
+
+
+
+
+</selector>
