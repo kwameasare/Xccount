@@ -34,7 +34,7 @@ public class UserDB extends SQLiteOpenHelper {
 
 
 
-    public UserDB(Context context) {
+    UserDB(Context context) {
         super(context, FeedReaderContract.FeedEntry.DBname, null, 1);
         SQLiteDatabase db= this.getWritableDatabase();
     }

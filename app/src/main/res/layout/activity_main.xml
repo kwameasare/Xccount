@@ -21,7 +21,7 @@
          />
 
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:layout_width="550dp"
         android:layout_height="100dp"
         android:layout_alignParentBottom="true"
@@ -43,7 +43,7 @@
     android:layout_marginStart="15dp"
     />
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 </RelativeLayout>
 
 
@@ -88,7 +88,7 @@
             android:layout_marginTop="90dp"
             android:textColor="@color/black" />
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="400dp"
             android:layout_height="250dp"
             app:cardElevation="15dp"
@@ -106,9 +106,9 @@
     android:layout_margin="10dp"
     />
 
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="400dp"
             android:layout_height="250dp"
             app:cardElevation="15dp"
@@ -122,9 +122,9 @@
             app:cardCornerRadius="10dp"
             >
 
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="400dp"
             android:layout_height="250dp"
             app:cardElevation="15dp"
@@ -138,10 +138,10 @@
             app:cardCornerRadius="10dp"
             >
 
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="400dp"
             android:layout_height="250dp"
             app:cardElevation="15dp"
@@ -155,7 +155,7 @@
             app:cardCornerRadius="10dp"
             >
 
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
 
         <RelativeLayout
@@ -180,7 +180,7 @@
 
     >
 
-<android.support.v7.widget.CardView
+<androidx.cardview.widget.CardView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:cardCornerRadius="90dp"
@@ -195,7 +195,7 @@
         android:src="@drawable/man37974"
         />
 
-</android.support.v7.widget.CardView>
+</androidx.cardview.widget.CardView>
 
 </RelativeLayout>
 

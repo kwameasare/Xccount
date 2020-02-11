@@ -34,17 +34,17 @@
         android:layout_marginTop="180dp"
         >
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="wrap_content"
             android:id="@+id/int_rec"
             android:layout_centerInParent="true"
             android:layout_height="match_parent">
 
-        </android.support.v7.widget.RecyclerView>
+        </androidx.recyclerview.widget.RecyclerView>
 
     </RelativeLayout>
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/int_continue"
         android:layout_width="120dp"
         android:layout_height="40dp"
@@ -70,7 +70,7 @@
             android:textColor="@color/white"
             android:textSize="20sp" />
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -78,13 +78,13 @@
         android:layout_alignParentBottom="true"
         >
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="wrap_content"
             android:id="@+id/chosen_int"
             android:layout_centerInParent="true"
             android:layout_height="match_parent">
 
-        </android.support.v7.widget.RecyclerView>
+        </androidx.recyclerview.widget.RecyclerView>
 
     </RelativeLayout>
 

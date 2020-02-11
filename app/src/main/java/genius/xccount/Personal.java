@@ -2,17 +2,14 @@ package genius.xccount;
 
 import android.app.DatePickerDialog;
 import android.content.ContentValues;
-import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
-import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v4.app.Fragment;
-import android.support.v7.widget.CardView;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+import androidx.cardview.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -24,21 +21,20 @@ import java.util.Objects;
 
 
 public class Personal extends Fragment {
-    final Calendar myCalendar = Calendar.getInstance();
+    private final Calendar myCalendar = Calendar.getInstance();
 
-    TextView DoB;
-    EditText fname;
-    EditText mname;
-    EditText lname;
-    EditText nickname;
-    String fstname;
-    String mdname;
-    String lstname;
+    private TextView DoB;
+    private EditText fname;
+    private EditText mname;
+    private EditText lname;
+    private EditText nickname;
+    private String fstname;
+    private String mdname;
+    private String lstname;
    static String nckname;
-    String dob;
-    UserDB userDB;
-    SQLiteDatabase db;
-    Boolean personalisfilled;
+    private String dob;
+    private SQLiteDatabase db;
+    private Boolean personalisfilled;
 
     public Personal() {
         // Required empty public constructor
@@ -62,8 +58,8 @@ CardView pnext=v.findViewById(R.id.pnext);
          mname=v.findViewById(R.id.midname);
          lname=v.findViewById(R.id.lastname);
          nickname=v.findViewById(R.id.nickname);
-         userDB=new UserDB(getActivity());
-         db=userDB.getWritableDatabase();
+        UserDB userDB = new UserDB(getActivity());
+         db= userDB.getWritableDatabase();
 
 
         DoB.setOnClickListener(v1 -> new DatePickerDialog(Objects.requireNonNull(getActivity()),R.style.MySpinnerDatePickerStyle, date, myCalendar
@@ -110,7 +106,7 @@ CardView pnext=v.findViewById(R.id.pnext);
 
     }
 
-    DatePickerDialog.OnDateSetListener date = (view, year, monthOfYear, dayOfMonth) -> {
+    private DatePickerDialog.OnDateSetListener date = (view, year, monthOfYear, dayOfMonth) -> {
         // TODO Auto-generated method stub
         myCalendar.set(Calendar.YEAR, year);
         myCalendar.set(Calendar.MONTH, monthOfYear);

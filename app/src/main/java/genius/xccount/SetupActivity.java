@@ -1,11 +1,11 @@
 package genius.xccount;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class SetupActivity extends FragmentActivity {
@@ -40,16 +40,13 @@ public class SetupActivity extends FragmentActivity {
     public static class MyPagerAdapter extends FragmentPagerAdapter {
 
         MyPagerAdapter(FragmentManager fm) {
-            super(fm);
+            super(fm,BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         }
 
         @Override
         public Fragment getItem(int position) {
 
             switch(position){
-
-                case 0:
-                    return Welcome.newInstance();
                 case 1:
                     return Personal.newInstance();
                 case 2:
@@ -59,6 +56,8 @@ public class SetupActivity extends FragmentActivity {
 
                 case 4:
                     return Security.newInstance();
+
+                case 0:
 
                 default:
                     return Welcome.newInstance();

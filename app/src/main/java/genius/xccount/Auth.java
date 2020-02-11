@@ -3,7 +3,7 @@ package genius.xccount;
 import android.app.Activity;
 import android.content.Intent;
 import android.hardware.fingerprint.FingerprintManager;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -11,8 +11,6 @@ public class Auth extends Activity implements FingerprintHelper.FingerprintHelpe
 
 
 private FingerprintHelper fingerprintHelper;
-    int x,y,xh,yh;
-    String serial_id,preview;
 
 
     @Override
@@ -21,19 +19,7 @@ private FingerprintHelper fingerprintHelper;
         setContentView(R.layout.activity_auth);
 
 
-        Bundle b = getIntent().getExtras();
 
-
-
-        if (b != null) {
-            String callpackage = b.getString("get me in");
-            x = b.getInt("X");
-            y = b.getInt("Y");
-            xh = b.getInt("XH");
-            yh = b.getInt("YH");
-            serial_id=b.getString("ID");
-            preview=b.getString("preview");
-        }
 
 
         fingerprintHelper = new FingerprintHelper(this);
@@ -43,19 +29,6 @@ private FingerprintHelper fingerprintHelper;
 
 
     }
-
-
-    class RequestCode {
-        static final int IMPORT = 100;
-        static final int WRITE_PERMISSION = 101;
-    }
-
-
-
-
-
-
-
 
 
     @Override
@@ -75,20 +48,9 @@ private FingerprintHelper fingerprintHelper;
     public void authenticationSuccess(FingerprintManager.AuthenticationResult result) {
 
 
-        Intent intent = new Intent();
-        intent.setClassName("geniusinc.xplay", "geniusinc.xplay.OpenCard");
-        Bundle bundle = new Bundle();
-        bundle.putInt("result", 981);
-        bundle.putInt("X", x);
-        bundle.putInt("Y",y);
-        bundle.putInt("XH",xh);
-        bundle.putInt("YH",yh);
-        bundle.putString("ID",serial_id);
-        bundle.putString("preview",preview);
-        intent.putExtras(bundle);
-        //intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-       // intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        startActivityIfNeeded(intent,1);
+        final Intent intent = new Intent();
+        setResult(981, intent);
+        finish();
 
 
 
