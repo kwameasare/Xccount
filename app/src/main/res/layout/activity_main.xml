@@ -109,9 +109,10 @@
             app:cardCornerRadius="10dp"
             >
 <ImageView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
     android:layout_margin="10dp"
+    android:src="@drawable/ic_icons8_settings_3"
     />
 
         </androidx.cardview.widget.CardView>
@@ -130,6 +131,12 @@
             app:cardCornerRadius="10dp"
             >
 
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_icons8_financial_dynamic_presentation_1"
+                />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -145,7 +152,12 @@
             android:layout_marginStart="60dp"
             app:cardCornerRadius="10dp"
             >
-
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_icons8_coins"
+                />
         </androidx.cardview.widget.CardView>
 
 
@@ -162,7 +174,12 @@
             android:layout_marginStart="70dp"
             app:cardCornerRadius="10dp"
             >
-
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_icons8_chat_2"
+                />
         </androidx.cardview.widget.CardView>
 
 

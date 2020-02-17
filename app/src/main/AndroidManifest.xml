@@ -37,7 +37,7 @@
 
 
         <activity android:name=".SetupActivity"
-
+android:screenOrientation="landscape"
 
             >
 
