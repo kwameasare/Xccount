@@ -81,9 +81,20 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="5dp"
             android:text="@string/pep"
+            android:id="@+id/uname"
             android:fontFamily="@font/amberlylight"
             android:textSize="60sp"
             android:textColor="@color/black"
+
+            />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@+id/uname"
+            android:layout_marginTop="51dp"
+            android:src="@drawable/ic_toonmoon"
+            android:layout_marginStart="20dp"
 
             />
 
